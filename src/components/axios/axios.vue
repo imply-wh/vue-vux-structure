@@ -10,7 +10,7 @@
 
     },
     mounted(){
-      this.$post('/login/app/login',{account: '20030145',password: '12345678'}).then(res => {
+      this.$post('/login/app/login',{account: '***',password: '***'}).then(res => {
         console.log(res);
       });
     },
